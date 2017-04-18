@@ -17,49 +17,59 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
- @import "font-awesome"
+ @import "font-awesome";
 
- //---------Navbar---------
-
-.navbar-default {
-    background-color: #212121;
-    border-color: #212121;
-    margin-bottom: 0;
-    border-radius: 0;
+ .jumbotron {
+  background-image:url('http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-542213.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 110px;
 }
 
-.navbar-default .navbar-brand {
-    color: #EF6C00;
-    padding: 10px 15px;
-    line-height: 30px;
+.title {
+  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 80px;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #FF6F00;
-    background-color: transparent;
+.slogan {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  top: 12px;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #EF6C00;
+.lead {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #FF6F00;
-    background-color: transparent;
+.caption {
+  margin: 30px;
+  text-align: center;
+  top: 20px;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #FF6F00;
-    background-color: #FFE0B2;
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin-top: 60px;
 }
 
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:focus,
-.navbar-default .navbar-nav > .open > a:hover {
-    background-color: #FFE0B2;
-    color: #212121;
+.custab{
+  border: 1px solid #ccc;
+
+  padding: 5px;
+  margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;
+
+  transition: 0.5s;
+}
+
+.custab:hover{
+  box-shadow: 3px 3px 0px transparent;
+  transition: 0.5s;
 }
